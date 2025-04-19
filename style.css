@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+ *{
+    padding: 0;margin :0;
+ }
+ body{
+    background-color: black;
+ }
+.main{
+    background-image: url("/images/Netflix-e-o-streaming-que-mais-aposta-em-lancamentos.jpg");
+    height: 500px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+  
+}
+.main.box{
+    height: 500px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+    
+  
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}   
+  .hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 10px;
+    padding: 0,  30px;
+  }
+  .herospan1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+   
+    /* font-style: bolder; */
+    font-size:28px;
+    text-align: center;
+    
+  }
+  .herospan2{
+    font-size: 20px;font-family: "Poppins", sans-serif;
+    font-weight: 300; text-align: center;
+  }
+  .herospan3{
+    font-size: 17px;
+    font-weight: 300; text-align: center;
+  }
+  .emailbox{
+    box-sizing: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; text-align: center;
+  }
+  .sepeation{
+    height: 5px;
+   
+    background-color: #464545;
+    
+  }
+  .englishbutton{
+    height: 30px;width: 100px;color: white;
+    /* background-color: black; */
+    border-radius: 5px;  background-color:rgba(23,23,23,0.2);
+    border: 1px solid white;
+  }
+  .signbutton{
+  height: 30px;width: 80px;
+    background-color: rgba(235, 2, 2, 0.785);;
+    border-radius: 5px;
+    color: white;
+  }
+  .emailbutton{
+    padding: 5px  20px; 
+    border-radius: 5px;
+    background-color: rgba(235, 2, 2, 0.785);
+    color: white;
+    font-style: bolder;
+  }
+  .emailbox{
+    gap: 2px;
+  }
+  .main input{
+    padding: 5px  20px; 
+    border-radius: 5px;
+    background-color:rgba(23,23,23,0.7);
+  }
+  .first{
+    display: flex;
+    justify-content: center;
+    max-width: 90vw; padding :35px;
+    padding-right: 200px;
+    /* padding: 100px; */
+    margin: auto;color: white;
+  }
+  .sectionfirst{
+    display: flex;
+    max-width: 40vw;
+   flex-direction: column;gap: 5px;
+    margin: auto;
+    text-align:start ;
+    font-size: larger;
+    /* align-items: center; */
+  }
+  .imagetv{
+    width: 30vw;
+    z-index: 10;
+    align-items: center;
+  }
+  .section_image1{
+  
+    position: relative;
+  }
+  .section_image1 video{
+    position: absolute;
+    width: 31vw;height: 184px;
+    top: 72px;right: 0;left :0.11;
+  }
+  .firstchild{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .secondchild{
+    font-size: 24px;
+    align-self: flex-start;
+    font-weight: 400;
+         max-width: 900px;
+    font-family: "Poppins", sans-serif;
+  }
+  .FAQ{
+    background-color: black;
+  }
+  .faqh2{
+    text-align:center ;
+    font-size: 48px;
+    color: white;
+    margin-top: 10px;
+    font-family:"Poppins", sans-serif ;
+  }
+  .faqbox{
+    display: flex;
+    justify-content:space-between;
+    /* text-align: center; */
+    background-color: rgba(127, 126, 126, 0.315);
+    color: white;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 60vw;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .faqbox:hover{
+    background-color: #a9a7a7;
+  }
+  .footer{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+  }
+  .questions{
+    font-size: 14px;
+    font-family:"Poppins", sans-serif ;
+      color: white;
+      margin-left: 150px;
+  }
+  .endpoint{
+    font-size: 14px;
+    font-family:"Poppins", sans-serif ;
+      color: white;
+      /* margin-left: 80px; */
+  }
+  .footerbox{
+    display: grid;
+    grid-gap: 40px;
+     margin-left: 150px;
+     width: 80vw;
+    
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+  
+  }
+  .footeritem{
+    display: flex;
+    flex-direction: column ;
+     gap: 20px;
+    font-size: 14px;
+    font-family:"Poppins", sans-serif ;
+  }
+  a{
+    
+   color: white;
+  }
+  .Email2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;color: white;
+    margin-top: 50px;
+  }
+  .Emailpara{
+    font-size: 18px;
+    padding: 10px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 500;
+  }
+  .emailbutton2{
+    padding: 15px;
+    padding-right: 150px;
+    background-color: transparent;
+    border-radius: 30px;color: white;
+  }
+  .emailbutton3{
+    padding: 15px;
+    padding-right: 100px;
+     font-style: bold;
+    background-color: #f60f0f;
+    border-radius: 30px;color: white;
+  }
